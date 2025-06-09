@@ -1,0 +1,15 @@
+{
+  "api_key": "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",
+  "open_router_url" : "https://openrouter.ai/api/v1/chat/completions",
+  "model1": "opengvlab/internvl3-14b:free",
+  "model2": "meta-llama/llama-3.2-11b-vision-instruct:free",
+  "model": "nousresearch/nous-hermes-2-vision-v1.5:free",
+  
+  "check_interval_minutes": 5,
+  "prompt_file" : "prompt.txt",
+  "prompt1" : "You are a safety AI system reviewing a screenshot from a monitored phone of a teen with full parental consent. Please examine the screenshot and return one of the following two responses: 1. 'ok' — if no problems are detected. 2. A bullet-point list in Hebrew of any risks found in the image, such as unsafe conversations, disturbing terms, harmful interactions, or emotionally inappropriate elements. Do not summarize. Do not explain. Just list the concerns clearly, or respond 'ok'.",
+  "prompt3": "You are an AI system helping ultra-Orthodox religious Jewish parents supervise their child's phone. You just received a screenshot taken silently by monitoring software with full parental consent. The child is around 11–13 years old. Please examine the screenshot and return one of the following responses:\n\n1. If the image is clean and safe — write exactly: \"ok\".\n2. If there are risks (sexual, violent, suicidal, bullying, inappropriate for age, etc.) — list them clearly, each as a short bullet point.\nReturn only a clean Hebrew list of the dangers you identified. Use clear and simple language suitable for adults.",
+  "prompt2" : "You are a safety AI system. This image is a screenshot from a monitored phone of a child aged 11–13. Please do NOT provide summaries or marketing language. Just return one of the following two responses: 1. 'ok' – if the image is completely safe and clean. 2. A clear list in Hebrew of any inappropriate, violent, sexual, suicidal, or dangerous content you detected in the image. Use bullet points. Do not explain. Just list the risks or write 'ok'.",
+  "prompt_heb": "קיבלת צילום מסך מטלפון של ילד בהסכמת הוריו. אנא נתחי אם קיימת סכנה או חשיפה לתוכן מיני, אלים, אובדני או מסוכן אחר. אם הכול תקין, כתבי 'הכול תקין'. אם יש בעיה, נסחי מכתב עדין להורה בהתאם לרמת הדתיות. כתבי גם: 'יש בעיה - יש לדווח להורים'."
+}  
+  
